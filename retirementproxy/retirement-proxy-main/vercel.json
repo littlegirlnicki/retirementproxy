@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://new-api.example.com/:path*" }
+    { "source": "/api/:path*", "destination": "https://script.google.com/macros/s/AKfycby8NraKChChRO0IUB8lm1AUyWKb2ZZwlKpraHjIgUY/dev*" }
   ]
 }
