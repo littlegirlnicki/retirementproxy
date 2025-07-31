@@ -1,13 +1,5 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "api/forward-to-sheet.js",
-      "use": "@vercel/node"
-    }
-  ]
-{
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    { "source": "/api/:path*", "destination": "https://new-api.example.com/:path*" }
   ]
 }
