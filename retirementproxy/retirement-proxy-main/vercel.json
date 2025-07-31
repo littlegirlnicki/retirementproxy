@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/forward-to-sheet.js",
+      "use": "@vercel/node"
+    }
+  ]
+}
