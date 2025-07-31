@@ -1,1 +1,1 @@
-retirement proxy
+retirement-proxy
